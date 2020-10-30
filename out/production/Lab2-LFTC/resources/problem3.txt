@@ -1,0 +1,18 @@
+// Problem no. 3 - Sum of n numbers:
+
+int sum = 0
+int n = input()
+int numbers_list = ( )
+int i = 0
+int n = 4
+
+for i in range ( n ) {
+    int number = input()
+    numbers_list = numbers_list + number
+}
+
+for number in numbers_list {
+    sum = sum + number
+}
+
+print sum

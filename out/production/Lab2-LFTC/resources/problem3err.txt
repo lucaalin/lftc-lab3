@@ -1,0 +1,21 @@
+int number1 = input()
+int number2 = input()
+
+//first error
+^^number3 = input()
+
+//second error
+int maxim=-1"
+
+if number1 > number2 and number1 > number3 {
+    max = number1
+}
+
+if number2 > number1 and number2 > number3 {
+    max = number2
+}
+else {
+    maxim = number3
+}
+
+print max

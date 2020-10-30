@@ -1,0 +1,25 @@
+// Problem no. 2 - Greatest common divisor:
+
+int number1 = input()
+int number2 = input()
+int divisor = -1
+int auxiliary = -1
+
+if number1 == 0 {
+    divisor = number1
+}
+
+if number2 == 0 {
+    divisor = number2
+}
+
+if divisor == -1 {
+    while number1 != number2 {
+        auxiliary = number1
+        number1 = number2 % number1
+        number2 = auxiliary
+    }
+    divisor = number2
+}
+
+print divisor
